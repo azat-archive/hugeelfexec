@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(hugeelfexec C)
+add_definitions(-Werror -Wall -Wextra -Wpedantic)
+add_definitions(-D_GNU_SOURCE)
+add_executable(hugeelfexec hugeelfexec.c)
